@@ -30,7 +30,8 @@ local dialogs            = {
 }
 local uncollectableItems = {
     ["Route 32"] = {{10, 95}},
-    ["Route 104 House"] = true
+    ["Route 104 House"] = true,
+	["Oaks Lab"] = true
 }
 
 local function resetData()

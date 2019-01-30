@@ -1,3 +1,5 @@
+loc = "Route 28_A"
+
 name = "Simple Example"
 author = "MeltWS"
 
@@ -29,11 +31,11 @@ if you need more details see HOWTO and README
 
 function onPathAction()
     map = getMapName() -- get the map name
-    PathFinder.moveTo(map, "Indigo Plateau Center")
+    PathFinder.moveTo(map, loc)
     -- the line above will move the bot to the map "Indigo Plateau Center"
 end
 
 function onBattleAction()
-    return run() or attack() -- we use this to not get stuck in battle.
+    return run() or attack() or sendUsablePokemon() -- we use this to not get stuck in battle.
 end
 

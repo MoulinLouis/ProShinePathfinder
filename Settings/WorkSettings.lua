@@ -8,7 +8,7 @@
 -- to disable set value to false or comment the line.
 -- to enable set the value to true.
 local berries = {
-    ["cherry"] = true,
+    --[[["cherry"] = true,
     ["pecha"] = true,
     ["oran"] = true,
     ["leppa"] = true,
@@ -23,7 +23,7 @@ local berries = {
     ["pomeg"] = true,
     ["tomato"] = true,
     ["sitrus"] = true,
-    ["lum"] = true,
+    ["lum"] = true,]]
 }
 
 ---------------------------

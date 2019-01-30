@@ -21,12 +21,12 @@ local function initSettings()
 Settings = {
 --  Default Settings
     default        = {
-        MOUNT      = "Bicycle",
+        MOUNT      = "Blue Bicycle",
 
-        DISCOVER   = true,  --discover items.
-        HARVEST    = true,  -- harvest berries.
-        HEADBUTT   = true, -- headbutt trees.
-        DIG        = true,  -- dig digSpots.
+        DISCOVER   = false,  --discover items.
+        HARVEST    = false,  -- harvest berries.
+        HEADBUTT   = false, -- headbutt trees.
+        DIG        = false,  -- dig digSpots.
 
         K_SUBWAY   = 15, -- Weight for using the subway path. Kanto
         J_SUBWAY   = 15, -- Weight for using the subway path. Johto
