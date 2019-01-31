@@ -259,7 +259,7 @@ local pokemonIdTeach = 1
 end
 
 function Game.needPokecenter()
-	if getTeamSize() <= 1 then
+	if getTeamSize() < 1 then
 		return false
 	elseif Game.getTotalUsablePokemonCount(minLevel) > 1 and Game.getTotalUsablePokemonToLevelCount(levelPokesTo) > 1 then
 		return false

@@ -182,6 +182,54 @@ end
 
 function onPathAction()
 local map = getMapName()
+
+	if getTeamSize() == 0 then
+		pauseMessage = "Current Quest: Boulder Badge - Going to talk to Prof. Oak to choose our first Pokemon!"
+		Lib.log1time(pauseMessage)
+		if getMapName() == "Start" then
+			if isNpcOnCell(21,38) then
+				return talkToNpcOnCell(21,38)
+			else 
+				return moveToCell(26,87)
+			end
+
+		elseif not pf.moveTo(map, "Oaks Lab") then
+			if oak == false then
+				if starter == "Random" then
+					return talkToNpcOnCell(math.random(9, 11), 6)
+				elseif starter == "Bulbasaur" then
+					return talkToNpcOnCell(9, 6)
+				elseif starter == "Charmander" then
+					return talkToNpcOnCell(10, 6)
+				elseif starter == "Squirtle" then
+					return talkToNpcOnCell(11, 6)
+				end
+			else
+				return talkToNpcOnCell(7,4)
+			end
+		end
+	end
+	
+	if Game.isSorted(levelPokesTo) then
+		Lib.log1time("Sorting Finished")
+		return true
+	end
+	
+	if Game.needPokecenter() then
+		Lib.log1time("Using Pokecenter")
+		return pf.useNearestPokecenter(map)
+	end
+	
+	if getMoney() > 10000 and getItemQuantity("Pokeball") < 10 then
+		Lib.log1time("Buying 50 Poké Balls")
+		return pf.useNearestPokemart(map, "Pokeball", 50)
+	elseif getMoney() > 4000 and getItemQuantity("Pokeball") < 10 then
+		Lib.log1time("Buying 20 Poké Balls")
+		return pf.useNearestPokemart(map, "Pokeball", 20)
+	elseif getMoney() > 2000 and getItemQuantity("Pokeball") < 10 then
+		Lib.log1time("Buying 10 Poké Balls")
+		return pf.useNearestPokemart(map, "Pokeball", 10)
+	end
 	
 	if not hasItem("Boulder Badge") then
 		return BoulderQuest.path()

@@ -242,6 +242,7 @@ end
 -- reset path
 local function resetPath()
     destStore = ""
+	return
 end
 
 local function errorInPath(from, toMap)
