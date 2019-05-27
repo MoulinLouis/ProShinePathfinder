@@ -434,6 +434,72 @@ mapLink["Viridian Pokemart"] = {["Viridian City"] = {{4, 11}}}
 --	["Link Area Name"] = {{minX, minY, maxX, maxY}}, 
 --}
 
+mapLink["New Bark Town"] = {["New Bark Town House 2"] = {{29, 25}}, ["New Bark Town House"] = {{10, 22}}, ["Professor Elms House"] = {{22, 10}}, ["Professor Elms Lab"] = {{19, 12}}, ["New Bark Town Player House"] = {{38, 14}}, ["Route 29"] = {{0, 17}}}
+mapLink["New Bark Town House"] = {["New Bark Town"] = {{3, 11}}}
+mapLink["Professor Elms House"] = {["New Bark Town"] = {{16, 17}}}
+mapLink["Professor Elms Lab"] = {["New Bark Town"] = {{4, 14}}}
+mapLink["New Bark Town Player House Bedroom"] = {["New Bark Town Player House"] = {{1, 4}}}
+mapLink["New Bark Town Player House"] = {["New Bark Town Player House Bedroom"] = {{2, 5}}, ["New Bark Town"] = {{3, 12}}}
+mapLink["New Bark Town House 2"] = {["New Bark Town"] = {{3, 11}}}
+mapLink["Route 29"] = {["Cherrygrove City_A"] = {{0, 16}}, ["New Bark Town"] = {{99, 16}}, ["Route 29 Stop House"] = {{52, 7}}}
+mapLink["Route 29 Stop House"] = {["Route 29"] = {{4, 12}}, ["Route 46_B"] = {{4, 2}}}
+mapLink["Route 46_B"] = {["Route 29 Stop House"] = {{33, 55}}}
+mapLink["Cherrygrove City_B"] = {["Route 30"] = {{58, 0}}}
+mapLink["Cherrygrove City_A"] = {["Cherrygrove City House 1"] = {{33, 15}}, ["Cherrygrove City House 2"] = {{45, 15}}, ["Cherrygrove City House 3"] = {{53, 20}}, ["Mart Cherrygrove City"] = {{41, 6}}, ["Pokecenter Cherrygrove City"] = {{51, 6}}, ["Route 29"] = {{63, 15}}, ["Route 30"] = {{36, 0}}}
+mapLink["Cherrygrove City House 3"] = {["Cherrygrove City_A"] = {{6, 13}}}
+mapLink["Cherrygrove City House 2"] = {["Cherrygrove City_A"] = {{7, 14}}}
+mapLink["Cherrygrove City House 1"] = {["Cherrygrove City_A"] = {{7, 11}}}
+mapLink["Mart Cherrygrove City"] = {["Cherrygrove City_A"] = {{4, 11}}}
+mapLink["Pokecenter Cherrygrove City"] = {["Cherrygrove City_A"] = {{10, 20}}, ["Cherrygrove City Subway"] = {{3, 14}}}
+mapLink["Route 30"] = {["Route 30 House 2"] = {{28, 5}}, ["Route 30 House 1"] = {{17, 67}}, ["Cherrygrove City_A"] = {{8, 96}}, ["Cherrygrove City_B"] = {{29, 96}}, ["Route 31"] = {{13, 0}}}
+mapLink["Route 30 House 1"] = {["Route 30"] = {{3, 7}}}
+mapLink["Route 30 House 2"] = {["Route 30"] = {{4, 9}}}
+mapLink["Route 31"] = {["Dark Cave South_A"] = {{50, 10}}, ["Route 30"] = {{38, 30}}, ["Violet City Stop House"] = {{4, 15}}, ["Route 45_A"] = {{53, 10}}}
+--TODO Dark Cave
+mapLink["Violet City Stop House"] = {["Route 31"] = {{10, 7}}, ["Violet City"] = {{0, 7}}}
+mapLink["Violet City"] = {["Violet City House 1"] = {{34, 60}}, ["Violet City House 2"] = {{9, 39}}, ["Violet City Gym Entrance"] = {{27, 43}}, ["Violet City School"] = {{45, 42}}, ["Pokecenter Violet City"] = {{48, 57}}, ["Route 32"] = {{19, 72}}, ["Route 36 Stop"] = {{1, 31}}, ["Violet City Pokemart"] = {{18, 41}}, ["Violet City Stop House"] = {{61, 56}}, ["Sprout Tower F1_A"] = {{37, 11}}}
+mapLink["Pokecenter Violet City"] = {["Violet City"] = {{8, 22}}, ["Violet City Subway"] = {{2, 20}}}
+mapLink["Violet City House 1"] = {["Violet City"] = {{6, 13}}}
+mapLink["Violet City School"] = {["Violet City"] = {{10, 13}}}
+mapLink["Violet City Gym Entrance"] = {["Violet City"] = {{7, 32}}, ["Violet City Gym"] = {{7, 21}}}
+mapLink["Violet City Gym"] = {["Violet City Gym Entrance"] = {{7, 20}}}
+mapLink["Violet City Pokemart"] = {["Violet City"] = {{6, 12}}}
+mapLink["Violet City House 2"] = {["Violet City"] = {{6, 13}}}
+mapLink["Route 36 Stop"] = {["Route 36"] = {{0, 6}}, ["Violet City"] = {{10, 6}}}
+mapLink["Sprout Tower F1_A"] = {["Violet City"] = {{13, 26}}, ["Sprout Tower F2_A"] = {{8, 8}}}
+mapLink["Sprout Tower F2_A"] = {["Sprout Tower F1_A"] = {{9, 9}}, ["Sprout Tower F1_B"] = {{23, 4}}}
+mapLink["Sprout Tower F1_B"] = {["Sprout Tower F2_A"] = {{24, 3}}, ["Sprout Tower F2_B"] = {{2, 11}}}
+mapLink["Sprout Tower F2_B"] = {["Sprout Tower F1_B"] = {{3, 12}}, ["Sprout Tower F3"] = {{13, 23}}}
+mapLink["Sprout Tower F3"] = {["Sprout Tower F2_B"] = {{13, 24}}}
+
+mapLink["Route 32"] = {["Pokecenter Route 32"] = {{19, 128}}, ["Ruins Of Alph Stop House"] = {{6, 11}}, ["Union Cave 1F_C"] = {{13, 137}}, ["Violet City"] = {{23, 0}}, ["Route 33"] = {{10, 143}}}
+mapLink["Ruins Of Alph Stop House"--[[npcs entrance]]] = {["Route 32"] = {{10, 6}}, ["Ruins Of Alph_A"] = {{0, 6}}}
+--TODO Ruins of Alph
+mapLink["Pokecenter Route 32"] = {["Route 32"] = {{9, 22}}}
+mapLink["Union Cave 1F_C"] = {["Union Cave 1F_D"] = {{23, 82}}, ["Route 32"] = {{43, 47}}, ["Route 33"] = {{42, 94}}, ["Union Cave B1F_A"] = {{19, 31}}}
+mapLink["Union Cave 1F_D"] = {["Union Cave 1F_C"] = {{43, 59}}, ["Union Cave B1F_C"] = {{15, 62}}}
+--TODO rest of Union Cave
+mapLink["Route 33"] = {["Azalea Town"] = {{0, 21}}, ["Union Cave 1F_C"] = {{21, 13}}, ["Route 32"] = {{14, 13}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
